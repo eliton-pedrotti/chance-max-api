@@ -21,4 +21,4 @@ ENDPOINT_STATISTICS -> é a URL BASE do endpoint da api statistics feita em pyth
 
 BASE_URL_SPORTMONKS -> é o endpoint da API do sportmonks, nao precisa alterá-la.
 
-BASE_URL_PAGSEGURO -> é o endpoint do pagseguro onde devera ser alterado para a URL de producao, a principio deve se remover o SANDBOX do nome da url, mas pode certificar-se acessando https://acesso.pagseguro.uol.com.br/sandbox e entrando com os dados do Andrey, lá tem uma explicação mais detalhada.
+BASE_URL_PAGSEGURO -> é o endpoint do pagseguro onde devera ser alterado para a URL de producao, a principio deve se remover o SANDBOX do nome da url, mas pode certificar-se acessando https://acesso.pagseguro.uol.com.br/sandbox e entrando com os dados, lá tem uma explicação mais detalhada.

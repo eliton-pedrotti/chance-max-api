@@ -1,0 +1,13 @@
+
+
+{
+    "name": "App Name",
+    "description": "Descrição da platforma",
+    "client_id": "29221956-494d-4bb9-9122-debbebe56267",
+    "client_secret": "23e3bc9f-dc68-4d13-842f-123ffa570fb2",
+    "site": "http://www.chancemax.com.br",
+    "redirect_uri": "http://www.chancemax.com.br/login",
+    "logo": "https://img.icons8.com/dusk/344/bbb.svg",
+    "account_id": "ACCO_0AD6E1DE-8C74-46D1-862A-4DDA062E5E89",
+    "client_type": "confidential"
+}

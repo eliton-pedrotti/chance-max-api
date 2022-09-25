@@ -1,0 +1,1051 @@
+{
+	"info": {
+		"_postman_id": "e3d0dee3-94e0-492f-9f20-7c0c73e0cf90",
+		"name": "API-ChanceMax",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API Sportmonks",
+			"item": [
+				{
+					"name": "Fixtures By Date range For Team",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://soccer.sportmonks.com/api/v2.0/fixtures/between/2018-01-01/2019-12-31?api_token=qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF&page=1&include=stats,round",
+							"protocol": "https",
+							"host": [
+								"soccer",
+								"sportmonks",
+								"com"
+							],
+							"path": [
+								"api",
+								"v2.0",
+								"fixtures",
+								"between",
+								"2018-01-01",
+								"2019-12-31"
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "include",
+									"value": "stats,round"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fixtures By Date",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Team by Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://soccer.sportmonks.com/api/v2.0/teams/",
+							"protocol": "https",
+							"host": [
+								"soccer",
+								"sportmonks",
+								"com"
+							],
+							"path": [
+								"api",
+								"v2.0",
+								"teams",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Team by Id Name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET all Seasons",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://soccer.sportmonks.com/api/v2.0/seasons/12950?api_token=qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF",
+							"protocol": "https",
+							"host": [
+								"soccer",
+								"sportmonks",
+								"com"
+							],
+							"path": [
+								"api",
+								"v2.0",
+								"seasons",
+								"12950"
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET teams by Season id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fixtures By Date range For Team Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://soccer.sportmonks.com/api/v2.0/fixtures/between/2018-01-01/2019-12-31?api_token=qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF&page=1&include=stats,round",
+							"protocol": "https",
+							"host": [
+								"soccer",
+								"sportmonks",
+								"com"
+							],
+							"path": [
+								"api",
+								"v2.0",
+								"fixtures",
+								"between",
+								"2018-01-01",
+								"2019-12-31"
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "include",
+									"value": "stats,round"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fixtures By Date range For Team Copy 2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://soccer.sportmonks.com/api/v2.0/fixtures/between/2018-01-01/2022-07-18?api_token=qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF&page=1&include=stats,round&leagues=648",
+							"protocol": "https",
+							"host": [
+								"soccer",
+								"sportmonks",
+								"com"
+							],
+							"path": [
+								"api",
+								"v2.0",
+								"fixtures",
+								"between",
+								"2018-01-01",
+								"2022-07-18"
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "include",
+									"value": "stats,round"
+								},
+								{
+									"key": "leagues",
+									"value": "648"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get season by id Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://soccer.sportmonks.com/api/v2.0/fixtures/between/2022-07-25/2022-12-31?api_token=qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF&include=stats,round,stage",
+							"protocol": "https",
+							"host": [
+								"soccer",
+								"sportmonks",
+								"com"
+							],
+							"path": [
+								"api",
+								"v2.0",
+								"fixtures",
+								"between",
+								"2022-07-25",
+								"2022-12-31"
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF"
+								},
+								{
+									"key": "include",
+									"value": "stats,round,stage"
+								},
+								{
+									"key": "page",
+									"value": "7",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "stage by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://soccer.sportmonks.com/api/v2.0/seasons/6397?api_token=qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF&page=1&include=stats,round",
+							"protocol": "https",
+							"host": [
+								"soccer",
+								"sportmonks",
+								"com"
+							],
+							"path": [
+								"api",
+								"v2.0",
+								"seasons",
+								"6397"
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "qjcT55Py9rBCAdhQlKm6MNOCYgVCg7sslC6Goahz0H6tCe5APmi3UbO5zKYF"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "include",
+									"value": "stats,round"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Create User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Luiz\",\n    \"cpf\": \"55184273107\",\n    \"birthday\": \"2005-05-19\",\n    \"phone\": \"51985405687\",\n    \"password\": \"senha\",\n    \"address\": {\n        \"CEP\": \"94965230\",\n        \"city\": \"CIdade de cá\",\n        \"complement\": \"Casa\",\n        \"district\": \"Novo Bairro\",\n        \"number_address\": \"555\",\n        \"state\": \"SP\",\n        \"street\": \"Rua tal\"\n    },\n    \"card\": {\n        \"card_name\": \"NODE JS\",\n        \"card_number\": \"4539620659922097\",\n        \"exp_month\": \"12\",\n        \"exp_year\": \"2026\",\n        \"security_code\": \"123\"\n    },\n    \"email\": \"admin@admin.com\",\n    \"plan\": \"2\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/users/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"meu@email.com\",\n    \"password\": \"senha\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find User By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTgzNjUzNTgsImV4cCI6MTY1ODQ1MTc1OH0.OIcP5PMsD8jh9eEFp9iJkEb5hrtSDAzckbmiUXP-1zI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/users/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cancel Plan",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/pagseguro/cancel-plan/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"pagseguro",
+								"cancel-plan",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Recover Password",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"email@email.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/users/recover-pass",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"recover-pass"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cron",
+			"item": [
+				{
+					"name": "GET All Championship",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/sportmonks/all-leagues",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"sportmonks",
+								"all-leagues"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET All Seasons",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/sportmonks/all-season",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"sportmonks",
+								"all-season"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET All Teams By Seasons",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/sportmonks/all-teams-by-season",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"sportmonks",
+								"all-teams-by-season"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Data Championship",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/sportmonks/all-data-matches",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"sportmonks",
+								"all-data-matches"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Data ChampionShip",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTgyNjc2OTQsImV4cCI6MTY1ODM1NDA5NH0.4sh7QkV5KhJjgmYlCZgy2Ev8DUwpcB4tzM-ibkxpN48",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/sportmonks/update-data-championship",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"sportmonks",
+								"update-data-championship"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Statistics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sheltered-lowlands-20519.herokuapp.com/probabilities",
+							"protocol": "https",
+							"host": [
+								"sheltered-lowlands-20519",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"probabilities"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Championships",
+			"item": [
+				{
+					"name": "Find Championship By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikx1aXoiLCJzdWIiOjEsImlhdCI6MTY1ODk1ODMwNiwiZXhwIjoxNjU5MDQ0NzA2fQ.BWjtuw1Im9VVfZi2u_ED_z_YouHN2JsYcwBuK1MAtgQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/teams/championship/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"teams",
+								"championship",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find All Championships",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTgyNjc2OTQsImV4cCI6MTY1ODM1NDA5NH0.4sh7QkV5KhJjgmYlCZgy2Ev8DUwpcB4tzM-ibkxpN48",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/teams/all-championships",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"teams",
+								"all-championships"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Teams",
+			"item": [
+				{
+					"name": "Find Teams By Season",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTgyNjc2OTQsImV4cCI6MTY1ODM1NDA5NH0.4sh7QkV5KhJjgmYlCZgy2Ev8DUwpcB4tzM-ibkxpN48",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/teams/all-teams/19438",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"teams",
+								"all-teams",
+								"19438"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find Matches By Championship And Season Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikx1aXoiLCJzdWIiOjEsImlhdCI6MTY1ODkzOTgwNSwiZXhwIjoxNjU5MDI2MjA1fQ.Kwi2gL1gxENX-NlbJTC91E_LZoate1xrUxG5a_0vNuw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/teams/all-matches/12/19438",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"teams",
+								"all-matches",
+								"12",
+								"19438"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find Team By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/teams/17678",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"teams",
+								"17678"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find Statistics",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik5vbWUiLCJzdWIiOjMsImlhdCI6MTY1ODc2MDM1OSwiZXhwIjoxNjU4ODQ2NzU5fQ.8ZZ5D2q1IjAup2fzxsqnO40OMuYhiJAJeSnv1kFzEYo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/teams/statistics/19434",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"teams",
+								"statistics",
+								"19434"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "API Pagseguro",
+			"item": [
+				{
+					"name": "Criar cobrança recorrente",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "A557E7C3CF3340E4A2DB7EDB4ECD744D",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"reference_id\": \"ex-66666\",\n    \"description\": \"Mensal ChanceMax\",\n    \"amount\": {\n        \"value\": 3999,\n        \"currency\": \"BRL\"\n    },\n    \"payment_method\": {\n        \"type\": \"CREDIT_CARD\",\n        \"installments\": 1,\n        \"capture\": false,\n        \"card\": {\n            \"number\": \"4539620659922097\",\n            \"exp_month\": \"12\",\n            \"exp_year\": \"2026\",\n            \"security_code\": \"123\",\n            \"holder\": {\n                \"name\": \"Jose da Silva\"\n            }\n        }\n    },\n    \"recurring\": {\n        \"type\": \"INITIAL\"\n    },\n    \"notification_urls\": [\n        \"https://yourserver.com/nas_ecommerce/277be731-3b7c-4dac-8c4e-4c3f4a1fdc46/\"\n    ],\n    \"metadata\": {\n        \"Exemplo\": \"Aceita qualquer informação\",\n        \"NotaFiscal\": \"123\",\n        \"idComprador\": \"123456\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://sandbox.api.pagseguro.com/charges",
+							"protocol": "https",
+							"host": [
+								"sandbox",
+								"api",
+								"pagseguro",
+								"com"
+							],
+							"path": [
+								"charges"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Capturar um pagamento",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "A557E7C3CF3340E4A2DB7EDB4ECD744D",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-version",
+								"value": "4.0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"amount\": {\n    \"value\": 3999\n  }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://sandbox.api.pagseguro.com/charges/CHAR_D60CB1B7-DFBF-4491-8A71-9E1057F671D0/capture",
+							"protocol": "https",
+							"host": [
+								"sandbox",
+								"api",
+								"pagseguro",
+								"com"
+							],
+							"path": [
+								"charges",
+								"CHAR_D60CB1B7-DFBF-4491-8A71-9E1057F671D0",
+								"capture"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultando Cobrança",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "A557E7C3CF3340E4A2DB7EDB4ECD744D",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://sandbox.api.pagseguro.com/charges/CHAR_4F704452-E5B5-4626-8F13-E3205806D353",
+							"protocol": "https",
+							"host": [
+								"sandbox",
+								"api",
+								"pagseguro",
+								"com"
+							],
+							"path": [
+								"charges",
+								"CHAR_4F704452-E5B5-4626-8F13-E3205806D353"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cancelar Cobrança",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "A557E7C3CF3340E4A2DB7EDB4ECD744D",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"amount\": {\n    \"value\": 3999\n  }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://sandbox.api.pagseguro.com/charges/CHAR_950A8D3A-4BC2-4F31-AC9F-3C18E65A6C10/cancel",
+							"protocol": "https",
+							"host": [
+								"sandbox",
+								"api",
+								"pagseguro",
+								"com"
+							],
+							"path": [
+								"charges",
+								"CHAR_950A8D3A-4BC2-4F31-AC9F-3C18E65A6C10",
+								"cancel"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Payment",
+			"item": [
+				{
+					"name": "Payment Subsequent",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTgzNDk3ODMsImV4cCI6MTY1ODQzNjE4M30.xypDoFiuLHB8qeUEzOcTXxJLaCHPzH8i8w8bVctyFZc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/pagseguro/create-subsequent-payment",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"pagseguro",
+								"create-subsequent-payment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reactive Plan",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"elitonteste@gmail.com\",\n    \"password\": \"12345678\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/pagseguro/reactive",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"pagseguro",
+								"reactive"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

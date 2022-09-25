@@ -1,0 +1,32 @@
+version: '3.3'
+services:
+  pgdbchanceMax:
+    container_name: postgres-chanceMax
+    image: postgres:alpine
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: dbmaster
+      POSTGRES_DB: chanceMaxdb
+    volumes:
+      - /var/lib/postgresql/data:/var/lib/postgresql/data
+      - /init-db.sh:/docker-entrypoint-initdb.d/
+    ports:
+      - 5432:5432
+    networks:
+      - chanceMax-network
+  pgadmin-chanceMax:
+    container_name: pgadmin4-chanceMax
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'app@chanceMax.com'
+      PGADMIN_DEFAULT_PASSWORD: 'appchanceMax1234'
+    ports:
+      - 8080:80
+    depends_on:
+      - pgdbchanceMax
+    networks:
+      - chanceMax-network
+networks:
+  chanceMax-network:
+    driver: bridge

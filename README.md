@@ -15,7 +15,7 @@ API_TOKEN -> é o token da api do sportmonks, entao, pra conseguir executar a ap
 
 DATABASE_URI -> é a URL da base que será utilizada em ambiente de producao, no exemplo que está no .env, é a URL que o heroku nos disponibilizou em ambiente de homologacao.
 
-PAGSEGURO_TOKEN -> é o token responsavel pelo meio de pagamentos, o Andrey deverá disponibilizar esse token da conta dele.
+PAGSEGURO_TOKEN -> é o token responsavel pelo meio de pagamentos.
 
 ENDPOINT_STATISTICS -> é a URL BASE do endpoint da api statistics feita em python.
 
